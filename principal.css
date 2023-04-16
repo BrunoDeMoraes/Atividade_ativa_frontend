@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+div#principal{
+    background-color: white;
+    max-width: 1400px;
+    margin: auto;
+    padding: 70px;
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, .4);
+}
+
+header#menu{
+    color: white;
+    background-color: rgb(19, 10, 11);
+}
+
+header#menu h1{
+    font-family: 'Dosis', sans-serif;
+    color: #dddddd;
+    text-align: left;
+    font-size: 50pt;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    border-bottom:3px solid #dddddd;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+nav#barra ul{
+    list-style: none;
+    position: relative;
+    top: 0px;
+    left: 750px;
+    margin-bottom: 20px;
+    margin-top: -70px;
+}
+
+nav#barra li{
+    display: inline-block;
+    vertical-align: center;
+    color: #ffffff;
+    font-size: 20pt;
+    padding: 10px;
+    margin: 2px;
+    font-weight: bolder;
+    transition: background-color 1s;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+}
+
+nav#barra a:hover{
+    text-decoration: underline;
+}
+
+nav#barra a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+
+section#unica{
+    margin-bottom: 100px;
+}
+
+
+div#main_foto{
+    width: 100%;
+}
+
+div#main_foto img{
+    width: 100%;
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .4);
+
+}
+
+section#unica h1{
+    font-family: 'Dosis', sans-serif;
+    margin-top: 50px;
+    font-size: 40pt;
+    color: #dddddd;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+section#unica p{
+    font-size: 20pt;
+    text-align: justify;
+}
+
+
+
+footer#rodape{
+    border-top: 2px solid #dddddd;
+}
+
+footer#rodape p{
+    text-align: center;
+    font-size: 15pt;
+    color: #b9b7b7;
+    margin: 3px;
+}

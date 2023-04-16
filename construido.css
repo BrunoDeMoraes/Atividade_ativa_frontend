@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.mapa{
+    background: #ffffff;
+}
+
+.mapa iframe{
+    margin:auto;
+    width: 100%;
+}
